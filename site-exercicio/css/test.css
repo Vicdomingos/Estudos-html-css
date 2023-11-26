@@ -1,0 +1,18 @@
+.receita {
+    color: rgb(203, 61, 203);
+}
+
+.cinza,
+.cinza-2,
+.cinza-3,
+.cinza-4 {
+    color: dimgrey;
+}
+
+.creme,
+.creme-2,
+.cobertura,
+.montagem {
+    color: orange;
+    font-size: 20px;
+}
