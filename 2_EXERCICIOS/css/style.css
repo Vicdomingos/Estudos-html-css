@@ -22,16 +22,18 @@ body::before {
     right: 0;
 }
 
+.logo img {
+    height: 45px;
+    width: 165px;
+}
+
+
 .logo {
     padding: 20px 50px;
     position: relative;
     z-index: 10;
 }
 
-.logo img {
-    height: 45px;
-    width: 165px;
-}
 
 .login {
     padding: 60px;
@@ -49,7 +51,7 @@ body::before {
 .first_login h2 {
     font-size: 32px;
     color: #fff;
-    margin-top: 0;
+    margin-top: 0
 }
 
 .first_login input {
@@ -61,76 +63,79 @@ body::before {
     border-radius: 5px;
     box-sizing: border-box;
     outline: none;
-    margin-top: 15px;
-    padding: 0 15px; /* Ajuste para evitar repetição */
+    margin-top: 8px;
+    padding-left: 15px; 
 }
 
 .to_enter input {
     background-color: #e50914;
+    font-weight: bold;
     color: #fff;
     padding: 15px;
-    margin-top: 40px;
+    margin-top: 30px;
     border: none;
     cursor: pointer;
 }
 
-.suport {
-    display: flex;
-    color: #b3b3b3;
-    justify-content: space-between;
-    font-size: 15px;
-    margin-bottom: 5px;
-}
-
-.suport input {
-    width: 15px;
-    height: 15px;
-}
-
-.remember {
+.support {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    position: relative;
+    font-size: 15px;
+    margin-top: 30px 0 30px 0;
 }
 
-.remember span {
-    margin-right: 5px;
-    height: 25px;
+.support .remember {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    color: #fff;
+}
+
+.support a:hover {
+    text-decoration: underline;
 }
 
 .help a {
+    color: #b3b3b3;
     text-decoration: none;
-    color: #737373;
 }
 
-.help a:hover {
+.footer {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #b3b3b3;
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+
+.footer a:hover {
     text-decoration: underline;
 }
 
-.new {
-    color: #737373;
-    font-size: 16px;
-}
-
-.new a {
+.footer a {
     color: #fff;
-    font-size: 16px;
     text-decoration: none;
+    font-weight: 700;
 }
 
-.new a:hover {
-    text-decoration: underline;
-}
 
-.terms {
-    color: #737373;
+.description_footer {
+    color: #b3b3b3;
     font-size: 13px;
+    line-height: 18px;
 }
 
-.terms a {
-    text-decoration: none;
+.description_footer span {
     color: #0071eb;
+    cursor: pointer;
 }
 
-.terms a:hover {
+.description_footer span:hover {
     text-decoration: underline;
 }
+ 
+
