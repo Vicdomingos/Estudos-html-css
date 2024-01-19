@@ -61,3 +61,69 @@ body {
 .end {
     justify-content: end;
 }
+
+/* Align items */
+.align-center,
+.flex-end,
+.stretch {
+    display: flex;
+    margin-bottom: 20px;
+    border: 1px solid blue;
+    height: 200px;
+    
+}
+
+.align-center .box,
+.flex-end .box,
+.stretch .box {
+    width: 50px;
+}
+
+.align-center {
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.flex-end {
+    align-items: flex-end;
+    /* justify-content: center; */
+}
+
+.stretch {
+    align-items: stretch;
+}
+
+.stretch .box {
+    /* obedecendo o elemento filho */
+    height: auto;   
+}
+
+/* gap */
+.gap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 1px solid green;
+    gap: 10px;
+}
+
+.gap .box {
+    width: 32%;
+}
+
+/* order */
+.order {
+    display: flex;
+}
+
+#one {
+    order: 1 ;
+}
+
+#two {
+    order: 2;
+}
+
+#three {
+    order: 3;
+}
