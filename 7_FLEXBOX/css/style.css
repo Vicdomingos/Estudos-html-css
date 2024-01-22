@@ -127,3 +127,72 @@ body {
 #three {
     order: 3;
 }
+
+/* 8 grow */
+.grow {
+    display: flex;
+}
+
+.grow .box {
+    flex: 1;
+}
+
+.grow .big {
+    flex: 2;
+}
+
+/* 9 basis */
+.basis {
+    display: flex ;
+}
+
+.basis .box {
+    flex-basis: 15px;
+}
+
+.basis .big {
+    flex-grow: 1;
+}
+
+/* 10 shrink */
+.shrink {
+    display: flex;
+}
+
+.shrink .box {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 250px;
+    width: auto;
+}
+
+.shrink .small {
+    flex-shrink: 2;
+
+}
+
+/* 11 shorthand */
+.shorthand {
+    display: flex;
+}
+
+.shorthand .box {
+    width: auto;
+    flex: 1 1 50px;
+}
+
+.shorthand .different {
+    flex: 3 1 400px;
+}
+
+/* 12 Auto alinhamento */
+.auto-alignment {
+    height: 300px;
+    display: flex;
+    align-items: flex-end;
+    border: 1px solid purple;
+}
+
+.auto-alignment .different {
+    align-self: center;
+}
